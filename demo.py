@@ -5,7 +5,7 @@ from keras.models import load_model
 from tensorflow.keras.preprocessing import image as keras_image
 
 # Load the Keras model
-model = load_model("my_model.keras")
+model = load_model("EfficientNetB3.h5")
 
 # Define the class labels
 class_labels = ['cataract', 'diabetic_retinopathy', 'glaucoma', 'normal']
